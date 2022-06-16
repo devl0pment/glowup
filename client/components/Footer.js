@@ -1,9 +1,9 @@
-import styles from '../styles/Footer.module.css'
+
 
 const Footer = () => {
     return (
-        <div className={styles.footerWrapper}>
-            <div className={styles.innerWrapper}>
+        <div>
+            <div>
                 <h1>Copyright</h1>
             </div>
         </div>

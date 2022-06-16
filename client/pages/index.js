@@ -1,58 +1,69 @@
+import Image from 'next/image';
+import tan1 from '../public/tan-1.PNG';
 import styles from '../styles/Home.module.css'
 
-export default function Home() {
+export default function Home({ props }) {
   return (
     <div className={styles.container}>
 
-      // nav menu
+
       <nav className={styles.nav}>
 
       </nav>
-      // hero
-      <div className={styles.hero}>
 
+      <div className={styles.hero}>
+        <div className={styles.heroBg}>
+          <div className={styles.heroIntro}>
+            <h1 className={styles.heroIntroTitle}>Mobile tanning solutions leicester</h1>
+            <p className={styles.heroIntroLead}>lorem ipsum</p>
+            <div className={styles.buttonWrapper}>
+              <button className={styles.button}>About me</button>
+              <button className={styles.button}>Bookings</button>
+            </div>
+          </div>
+        </div>
       </div>
-      // intro
+
       <div className={styles.intro}>
 
       </div>
-      // solution
+
       <div className={styles.solutions}>
 
       </div>
-      // about
+
       <div className={styles.about}>
 
       </div>
-      // color pallete
+
       <div className={styles.pallete}>
 
       </div>
-      // brands
+
       <div className={styles.branding}>
 
       </div>
-      // availability
+
       <div className={styles.availability}>
 
       </div>
-      // location
+
       <div className={styles.location}>
 
       </div>
-      // contact
+
       <div className={styles.contact}>
 
       </div>
-      // reviews
+
       <div className={styles.reviews}>
 
       </div>
-      // articles
+
       <div className={styles.articles}>
 
       </div>
-      // faq
+
       <div className={styles.faq}>
 
       </div>
