@@ -3,7 +3,7 @@ import Navigation from "./Navigation.js";
 
 const Layout = ({ children }) => {
     return (
-        <div>
+        <div className="layoutContainer">
             <Navigation />
             {children}
             <Footer />

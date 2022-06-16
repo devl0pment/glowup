@@ -1,10 +1,10 @@
 {
-    "name": "app-service-hello-world",
-    "description": "Simple Hello World Node.js sample for Azure App Service",
+    "name": "glowup",
+    "description": "Leicestershire mobile tanning solutions",
     "version": "0.0.1",
-    "private": true,
-    "license": "MIT",
-    "author": "Microsoft",
+    "private": false,
+    "license": "",
+    "author": "a wright",
     "scripts": {
         "start": "node index.js",
         "dev": "nodemon"
