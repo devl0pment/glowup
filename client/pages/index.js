@@ -2,6 +2,7 @@ import Image from 'next/image';
 import tan1 from '../public/tan-1.PNG';
 import styles from '../styles/Home.module.css'
 
+
 export default function Home({ props }) {
   return (
     <div className={styles.container}>
@@ -14,12 +15,18 @@ export default function Home({ props }) {
       <div className={styles.hero}>
         <div className={styles.heroBg}>
           <div className={styles.heroIntro}>
-            <h1 className={styles.heroIntroTitle}>Mobile tanning solutions leicester</h1>
-            <p className={styles.heroIntroLead}>lorem ipsum</p>
+            <h1 className={styles.heroIntroTitle}>leicesters tanning specialist</h1>
+            <p className={styles.heroIntroLead}>Mobile tanning in the comfort of your home</p>
             <div className={styles.buttonWrapper}>
               <button className={styles.button}>About me</button>
               <button className={styles.button}>Bookings</button>
             </div>
+            <Image 
+            className={styles.gups}
+            src="/glowupspray.png"
+            width='100px'
+            height='100px'
+          />
           </div>
         </div>
       </div>

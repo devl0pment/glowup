@@ -1,3 +1,5 @@
+import Glowup from '../public/glowup.png'
+import Image from 'next/image';
 
 const Navigation = () => {
     return (
@@ -6,7 +8,12 @@ const Navigation = () => {
 
             </div>
             <div className="navLogo">
-                <h1>Glowup</h1>
+               <Image 
+                src="/glowup.png"
+                width='150px'
+                height='50px'
+                 alt='Glowup leicester'
+               />
             </div>
             <div>
                 <span></span>
