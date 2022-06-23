@@ -1,11 +1,12 @@
 import Glowup from '../public/glowup.png'
 import Image from 'next/image';
+import {GrLocationPin} from 'react-icons/gr';
 
 const Navigation = () => {
     return (
         <div className='navWrapper'>
             <div className="navIcon">
-
+                <GrLocationPin className='grloc' />
             </div>
             <div className="navLogo">
                <Image 
@@ -15,7 +16,7 @@ const Navigation = () => {
                  alt='Glowup leicester'
                />
             </div>
-            <div>
+            <div className='navToggle'>
                 <span></span>
                 <span></span>
                 <span></span>

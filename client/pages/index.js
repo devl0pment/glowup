@@ -21,12 +21,14 @@ export default function Home({ props }) {
               <button className={styles.button}>About me</button>
               <button className={styles.button}>Bookings</button>
             </div>
-            <Image 
-            className={styles.gups}
-            src="/glowupspray.png"
-            width='100px'
-            height='100px'
-          />
+            <div className='logoWrap'>
+              <Image 
+             
+              src="/glowupspray.png"
+              width='100px'
+              height='100px'
+            />
+            </div>
           </div>
         </div>
       </div>

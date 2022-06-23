@@ -26,8 +26,6 @@
 .heroIntro {
   position: relative;
   color: white;
-  width: 90%;
-  margin: auto;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -53,10 +51,20 @@
   height: 100vh;
 }
 
-.gups {
-  opacity: 0.7;
-  position: absolute;
-  bottom: 0;
-  left: 0;
+.buttonWrapper {
+  margin-top: 2rem;
 }
+
+.button {
+  width: 150px;
+  height: 40px;
+  background-color: gold;
+  border: none;
+  border-radius: 3px;
+}
+
+.button:first-of-type {
+  margin-right: 5px;
+}
+
 /* solutions */
